@@ -13,22 +13,35 @@
         <legend><mark> Personal Data</mark></legend>
         <fieldset class="Name">
             <legend><b>Your Name</b></legend> <br>
-            <br>
-            <br>
-            <form action="">
-            <label for="first"><b>First Name:</b></label>
-            <input type="text" name="name" id="first"> <br>
-            <label for="second"><b>Second Name:</b></label>
-            <input type="text" name="name" id="second">
-        </fieldset><br>
-        <br>
-        <label for="phone"><b>Your Phone:</b></label>
-        <input type="tel" name="number" id="phone"> <br>
-        <label for="mail"><b>Email:</b></label>
-        <input type="email" name="email" id="mail"><br>
-        <label for="pass"><b>Password:</b></label>
-        <input type="password" name="password" id="pass" placeholder="Keep it secret!">
-        <br>
+    <table>
+        <tbody>
+            <tr>
+                <td ><label for="name">First name</label></td>
+                <td>:<input type="text" name="name" id="name"></td>
+            </tr>
+            <tr>
+                <td ><label for="secname">Second name</label></td>
+                <td>:<input type="text" name="name" id="secname"></td>
+            </tr>
+        </tbody>
+    </table>
+        </fieldset>
+        <table>
+            <tbody>
+                <tr>
+                    <td ><label for="tel">your phone</label></td>
+                    <td>:<input type="tel" name="tel" id="tel"></td>
+                </tr>
+                <tr>
+                    <td><label for="mail">Email</label></td>
+                    <td>:<input type="email" name="email" id="mail"></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">password</label></td>
+                    <td>:<input type="password" name="password" id="pass"></td>
+                </tr>
+            </tbody>
+        </table> <br>
         <br>
         <label ><b>Gender:</b></label>
         <input type="radio" name="gender" value="male">Male
